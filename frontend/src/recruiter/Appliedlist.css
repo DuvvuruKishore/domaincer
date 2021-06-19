@@ -5,7 +5,12 @@
     height: 100vh;
     flex-direction: column;
     background-color: cornflowerblue;
+    
 }
 .appliedlist_name>h3{
     margin-bottom: 26px;
+}
+.applied_card{
+width: 700px;
+margin: 5px 5px;
 }

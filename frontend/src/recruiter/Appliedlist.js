@@ -20,7 +20,7 @@ const [apply,setApply]=useState([])
         <div className="appliedlist_name">
         <h3>candidates who appllied for the job</h3>
            {apply.map((data)=>(
-               <Card>
+               <Card className="applied_card" key={data._id}>
             <p>{data.name} has applied with email address {data.email} to the post of {data.jobrole}</p>
             </Card>
            ))}

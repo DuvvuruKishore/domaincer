@@ -2,7 +2,7 @@ import React from 'react';
 import './App.css';
 import Recruiter from './recruiter/Recruiter'
 import Candidate from './candidate/Candidate';
-import { BrowserRouter, Route, Switch,Link } from "react-router-dom";
+import { BrowserRouter, Route, Switch } from "react-router-dom";
  import SignIn from './auth/SignIn';
  import Candidatelogin from './auth/Candidatelogin';
 import Homepage from './homepage';

@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { useDispatch } from 'react-redux';
-import { Avatar, Button, Paper, Grid, Typography, Container } from '@material-ui/core';
+import { Button, Paper, Grid, Container } from '@material-ui/core';
 import { useHistory } from 'react-router-dom';
 import { signin, signup } from '../actions/auth';
 import useStyles from './styles';

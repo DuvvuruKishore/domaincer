@@ -10,7 +10,7 @@ import './candidate.css';
 
 function Candidate() {
     const [postedjob,setPostedjob]=useState([]);
-  const [buttonText, setButtonText] = useState("Apply"); 
+  
     useEffect(()=>{
         axios.get('/get/job').then(response=>{
             setPostedjob(response.data);
@@ -20,10 +20,7 @@ function Candidate() {
         })
       },[]);
       
-      const changeText = (value) => {
-          setButtonText("applied")
-    }
-
+   
 
     return (
         <div className="posted__jobs">
@@ -32,7 +29,8 @@ function Candidate() {
         {postedjob.map((data)=>(
             <Card key={data._id} className="card__jobs">
             <Card.Title>Job Title {data.jobrole}</Card.Title>
-            <p>skills nedded {data.salary}</p>
+            <p>skills nedded {data.skills}</p>
+            <p>salary {data.salary}</p>
             <p>description {data.description}</p>
             <p>last date to apply {data.lastdate}</p>
             <Link to="/apply" style={{ textDecoration: 'none' }}>
