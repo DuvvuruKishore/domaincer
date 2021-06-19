@@ -1,0 +1,38 @@
+.apply_eachjob{
+  /*  position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+  width:800px*/
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 32px;
+  
+}
+.fill__form{
+    width: 100px;
+}
+.job__form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 20px;
+}
+.job__card{
+    display: flex;
+    flex-direction: column;
+    width:400px;
+    height:260px;
+}
+.email{
+margin: 10px 10px;
+}
+.email_text{
+width: 360px;
+}
+.apply__submit{
+    margin-top: 16px;
+}

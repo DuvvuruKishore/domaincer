@@ -1,0 +1,56 @@
+
+.border-change{
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid #000000;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  border-radius: 0;
+
+}
+.border-change:focus{
+    -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+.card__change{
+    background-color:white;
+    width:600px;
+    height: 230px;
+    margin-top: 10px;
+}
+.jobrole{
+   width: 400px;
+   color:black; 
+}
+.post__job{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: blanchedalmond;
+    height: 100vh;
+}
+.post_button{
+    background-color: cornflowerblue;
+    outline-width: 0ch;
+    border: none;
+    border-bottom: 1px solid black;
+}
+.form-group{
+  height:30px;
+color:red
+}
+.button__post{
+  width: 600px;
+  margin-bottom: 10px;
+}
+.job{
+  width: 600px;
+}
+.persons__job{
+  background-color: blanchedalmond;
+  position: absolute;
+  top:10px;
+  right: 0px;
+}

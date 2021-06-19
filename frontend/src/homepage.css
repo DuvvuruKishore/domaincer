@@ -1,0 +1,11 @@
+.home__page{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    background-color: skyblue;
+}
+.home__button1{
+    margin: 16px;
+}
